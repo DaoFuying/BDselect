@@ -1,4 +1,4 @@
-# BinomialDistribution
+# BDselect: a package for k-mer selection based on binomial distribution
 A feature ranking tool based on binomial distribution
 
 Binomial distribution is one of the wonderful feature selection techniques that have been successfully applied in many works. For the convenience of researchers, a feature ranking tool based on binomial distribution was developed.
@@ -13,9 +13,9 @@ environment(recommend python3.8):
  |parameters|description|
 
 |-k |the number of kmer|
-|-t |type of sequence(require:DNA ,RNA or protein)|   
+|-t |type of sequence (require:DNA ,RNA or protein)|   
 |-f |the path of sequencefile|  
-|——————————————————|————————————————| 
+
 
 #### 3.Example
  ```
@@ -30,5 +30,8 @@ BinomialDistribution.exe -k 2 -t DNA -f C:\Users\DNASeqfile
 |BinomialDistributionCL.txt | rank file|
 |clresult.txt | the detail of CL values|
 
+#### citation
+Fu-Ying Dao, Hao Lv, Zhao-Yue Zhang, Hao Lin*. (2021) BDselect: a package for k-mer selection based on binomial distribution. Current Bioinformatics, 17(3): 238-244(7).
 
-contact fydao@std.uestc.edu.cn
+#### contact 
+fuying.dao@ntu.edu.cn
